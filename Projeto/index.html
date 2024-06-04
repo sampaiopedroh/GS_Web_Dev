@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ocean Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <div id="intro">
+            <h1>Teste seus conhecimentos sobre os oceanos!</h1>
+            <p>Bem-vindo ao Ocean Quiz! Aqui você poderá testar seus conhecimentos sobre o meio ambiente marinho, a "Economia Azul" e os desafios que enfrentamos para proteger nossos oceanos. </p>
+            <button id="start-button">Iniciar Quiz</button>
+        </div>
+
+        <div id="quiz-area" style="display: none;">
+            <div id="question-area">
+                <h2 id="question-text"></h2>
+            </div>
+            <div id="options-area"></div>
+            <div id="feedback-area"></div>
+            <div id="navigation">
+                <button id="previous-button" disabled>Anterior</button>
+                <button id="next-button">Próximo</button>
+            </div>
+            <div id="progress-area">
+                <p>Questão <span id="current-question">1</span> de <span id="total-questions"></span></p>
+            </div>
+        </div>
+
+        <div id="result-area" style="display: none;">
+            <h2>Parabéns! Você terminou o quiz!</h2>
+            <p>Sua pontuação final é: <span id="final-score"></span></p>
+            <p id="feedback-message"></p>
+            <button id="play-again-button">Jogar Novamente</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
