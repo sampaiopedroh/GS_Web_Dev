@@ -1,5 +1,6 @@
 # GS Web DevOcean Quiz - Teste seus conhecimentos sobre os oceanos!
 -> Integrantes: Pedro Sampaio (555613)
+
 Este repositório contém o código fonte para um divertido quiz online sobre os oceanos, com foco na "Economia Azul" e a importância da proteção do meio ambiente marinho.
 
 -> Objetivo:
